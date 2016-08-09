@@ -1,0 +1,1 @@
+define(["jquery","underscore","handlebars"],function(e,a,n){var l=function(n){var l=a.template("Hello <%= name %>");e("#underscroeTemplate").html(l({name:n}))},r=function(a){var l=n.compile("Hello {{name}}");e("#handlebarsTemplate").html(l(a))};return{underscoreTemplate:l,handlebarsTemplate:r}});
