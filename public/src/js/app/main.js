@@ -1,11 +1,12 @@
-define(function (require) {
-    var hello = require('app/helloworld');
+define(['app/helloworld', 'app/template', 'jquery'], function(hello, template, $) {
+    console.log('main loaded');
     hello.narrator();
     hello.greeting();
     hello.msg();
      
-    require(['app/template'], function(template) {
-        template.underscoreTemplate("underscore");
-        template.handlebarsTemplate({name:"Handlebars"});
-    });
+    template.underscoreTemplate("underscore");
+    template.handlebarsTemplate({name:"Handlebars"});
+
+    console.log('Hello jquery ' + $().jquery);
+
 });

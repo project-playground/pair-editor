@@ -3,9 +3,9 @@ requirejs.config({
     paths: {
         app: 'app',
         lib: 'lib',
-        jquery: 'http://code.jquery.com/jquery-1.11.2.min',
-        underscore: 'lib/underscore',
-        handlebars: 'lib/handlebars'
+        jquery: 'lib/jquery-3.1.0.min',
+        underscore: 'lib/underscore-min',
+        handlebars: 'lib/handlebars-v4.0.5'
     },
     shim: {
         handlebars: {
