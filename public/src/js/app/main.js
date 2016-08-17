@@ -1,4 +1,4 @@
-define(['app/helloworld', 'app/template', 'jquery'], function(hello, template, $) {
+define(['app/helloworld', 'app/template', 'app/goldenlayout', 'jquery'], function(hello, template, golden, $) {
     console.log('main loaded');
     hello.narrator();
     hello.greeting();
