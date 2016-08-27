@@ -6,7 +6,7 @@ requirejs.config({
         jquery: 'lib/jquery-3.1.0.min',
         underscore: 'lib/underscore-min',
         handlebars: 'lib/handlebars-v4.0.5',
-        golden: '/lib/golden/js/goldenlayout.min'
+        golden: 'lib/golden/js/goldenlayout.min'
     },
     shim: {
         handlebars: {
